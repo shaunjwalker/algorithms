@@ -16,6 +16,11 @@ The experimental design of this project involved :
 - Ensuring that each run of each algorithm was on a new, randomized array
 - Ensuring that merge1 and merge2 were run on the exact same randomized array each run
 
+### Results
+
+Below are the results of the tests:
+
+
 ## Runtime Analyses
 Below are Big-O runtime analyses for reverse1, merge1, and merge2
 
