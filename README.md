@@ -3,14 +3,14 @@ A project for CIS-320: Data Structures demonstrating experimental, asymptotic, a
 
 This project served as a homework for Data Structures my sophomore year of college, its main purpose being implementations of experimental design and analysis through setting up experiments related to runtime and asymptotic and algorithmic analysis through correctness arguments and runtime analyses in Big-O notation.
 
-## Project Overview
+### Project Overview
 The project includes:
 - Three methods of reversing an input array, reverse1, reverse2, and reverse3
 - Two methods of merging two sorted input arrays into a new, sorted array, merge1 and merge2
 
 Each algorithm was compared based upon their runtimes.
 
-## Experimental Design
+### Experimental Design
 The experimental design of this project involved :
 - Choosing values of n, where n is the size of an input array, on which to run each algorithm to obtain meaningful and comparable performance data
 - Ensuring that each run of each algorithm was on a new, randomized array
@@ -19,7 +19,7 @@ The experimental design of this project involved :
 ## Runtime Analyses
 Below are Big-O runtime analyses for reverse1, merge1, and merge2
 
-## reverse1 analysis:
+### reverse1 analysis:
 Let n be the length of the values array.  
 
 Outside of any loops are a number of primitive operations (declaration and assignment) running   
@@ -32,7 +32,7 @@ f(n) < kn, where k is a sufficiently large constant multiple
 
 So, the function is O(n).  
 
-## merge1 analysis:  
+### merge1 analysis:  
 Let n be the length of list1.  
 Let m be the length of list2.  
 
@@ -50,7 +50,7 @@ f(n) < k(nlogn+mlogm) where k is a sufficiently large constant multiple.
 
 So, the function is O(nlogn+mlogm)  
 
-## merge2 analysis:  
+### merge2 analysis:  
 Let n be the length of list1.  
 Let m be the length of list2.  
 
