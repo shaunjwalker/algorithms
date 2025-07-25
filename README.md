@@ -20,8 +20,11 @@ The experimental design of this project involved :
 
 Below are the results of the tests:
 
-![Reverse Algorithm](images/reverse algorithm comparison.png)  
-![Merge Algorithm](images/merge-algorithm-comparison.png)
+### Reverse Algorithm Results Comparison
+![Reverse Algorithm Runtime Results](images/reverse-algorithm-comparison.png)  
+
+### Merge Algorithm Results Comparison
+![Merge Algorithm Runtime Results](images/merge-algorithm-comparison.png)
 
 ## Runtime Analyses
 Below are Big-O runtime analyses for reverse1, merge1, and merge2
