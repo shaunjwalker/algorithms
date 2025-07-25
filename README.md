@@ -1,7 +1,7 @@
 # Algorithms
 A project for CIS-320: Data Structures demonstrating experimental, asymptotic, and algorithmic analysis
 
-This project served as a homework for Data Structures my sophomore year of college, its main purpose being implementations of experimental design and analysis through setting up experiments related to runtime and asymptotic and algorithmic analysis through correctness arguments and runtime analyses in Big-O notation.
+This project was completed as part of a homework assignment for Data Structures my sophomore year of college. It demonstrates practices of experimental design and analysis through setting up experiments related to runtime and asymptotic and algorithmic analysis through correctness arguments and runtime analyses in Big-O notation.
 
 ### Project Overview
 The project includes:
@@ -13,7 +13,7 @@ Each algorithm was compared based upon their runtimes.
 ### Experimental Design
 The experimental design of this project involved :
 - Choosing values of n, where n is the size of an input array, on which to run each algorithm to obtain meaningful and comparable performance data
-- Ensuring that each run of each algorithm was on a new, randomized array
+- Ensuring that every run of each algorithm was on a new, randomized array
 - Ensuring that merge1 and merge2 were run on the exact same randomized array each run
 
 ### Results
