@@ -26,6 +26,11 @@ Below are the results of the tests:
 ### Merge Algorithm Results Comparison
 ![Merge Algorithm Runtime Results](images/merge-algorithm-comparison.png)
 
+## How to Run  
+This program requires Java 5 or later to compile and run.
+
+The driver class of this prject is wordsRank.java. In compiling and running this file, the algorithms will run, reporting on the average runtime over three on each algorithm for each input array size.
+
 ## Runtime Analyses
 Below are Big-O runtime analyses for reverse1, merge1, and merge2
 
