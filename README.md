@@ -5,16 +5,16 @@ This project was completed as part of a homework assignment for Data Structures 
 
 ### Project Overview
 The project includes:
-- Three methods of reversing an input array, reverse1, reverse2, and reverse3
-- Two methods of merging two sorted input arrays into a new, sorted array, merge1 and merge2
+- Three methods of reversing an input array, `reverse1`, `reverse2`, and `reverse3`
+- Two methods of merging two sorted input arrays into a new, sorted array, `merge1` and `merge2`
 
 Each algorithm was compared based upon their runtimes.
 
 ### Experimental Design
 The experimental design of this project involved :
-- Choosing values of n, where n is the size of an input array, on which to run each algorithm to obtain meaningful and comparable performance data
+- Choosing values of `n`, where `n` is the size of an input array, on which to run each algorithm to obtain meaningful and comparable performance data
 - Ensuring that every run of each algorithm was on a new, randomized array
-- Ensuring that merge1 and merge2 were run on the exact same randomized array each run
+- Ensuring that `merge1` and `merge2` were run on the exact same randomized array each run
 
 ### Results
 
@@ -29,13 +29,13 @@ Below are the results of the tests:
 ## How to Run  
 This program requires Java 5 or later to compile and run.
 
-The driver class of this prject is wordsRank.java. In compiling and running this file, the algorithms will run, reporting on the average runtime over three on each algorithm for each input array size.
+The driver class of this project is `wordsRank.java`. In compiling and running this file, the algorithms will run, reporting on the average runtime over three on each algorithm for each input array size.
 
 ## Runtime Analyses
-Below are Big-O runtime analyses for reverse1, merge1, and merge2
+Below are Big-O runtime analyses for `reverse1`, `merge1`, and `merge2`
 
-### reverse1 analysis:
-Let n be the length of the values array.  
+### `reverse1` analysis:
+Let n be the length of the `values` array.  
 
 Outside of any loops are a number of primitive operations (declaration and assignment) running   
 in constant time c.  
@@ -47,9 +47,9 @@ f(n) < kn, where k is a sufficiently large constant multiple
 
 So, the function is O(n).  
 
-### merge1 analysis:  
-Let n be the length of list1.  
-Let m be the length of list2.  
+### `merge1` analysis:  
+Let n be the length of `list1`.  
+Let m be the length of `list2`.  
 
 Outside of any loops are number of primitive operations (declaration and assignment) c, as well   
 as two calls to Arrays.sort, which has a runtime of O(nlogn) and a potential number of constant,   
@@ -65,9 +65,9 @@ f(n) < k(nlogn+mlogm) where k is a sufficiently large constant multiple.
 
 So, the function is O(nlogn+mlogm)  
 
-### merge2 analysis:  
-Let n be the length of list1.  
-Let m be the length of list2.  
+### `merge2` analysis:  
+Let n be the length of `list1`.  
+Let m be the length of `list2`.  
 
 Outside of any loops, excluding the call to Arrays.sort, are a number of primitive operations   
 running in constant time c.  
