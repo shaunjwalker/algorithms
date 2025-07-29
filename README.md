@@ -83,3 +83,8 @@ f(n) = c + c’(n+m) + (n+m)log(n+m)
 f(n) < k(n+m)log(n+m) where k is a sufficiently large constant multiple.  
 
 So, the function is O((n+m)log(n+m))  
+
+## Note
+
+This project was created as coursework for CIS-320: Data Structures.
+Some code may have been adapted from course materials or developed under instructor guidance.
