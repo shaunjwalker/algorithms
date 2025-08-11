@@ -1,7 +1,7 @@
 # Algorithms
-A project for CIS-320: Data Structures demonstrating experimental, asymptotic, and algorithmic analysis
+A Java project demonstrating experimental design, asymptotic analysis, and runtime comparison of algorithms.
 
-This project was completed as part of a homework assignment for Data Structures my sophomore year of college. It demonstrates practices of experimental design and analysis through setting up experiments related to runtime and asymptotic and algorithmic analysis through correctness arguments and runtime analyses in Big-O notation.
+This project was completed as part of a homework assignment for CIS 320: Data Structures my sophomore year of college. It demonstrates practices of experimental design and analysis through setting up experiments related to runtime and asymptotic and algorithmic analysis through correctness arguments and runtime analyses in Big-O notation.
 
 ### Project Overview
 The project includes:
@@ -14,7 +14,7 @@ Each algorithm was compared based upon their runtimes.
 The experimental design of this project involved :
 - Choosing values of `n`, where `n` is the size of an input array, on which to run each algorithm to obtain meaningful and comparable performance data
 - Ensuring that every run of each algorithm was on a new, randomized array
-- Ensuring that `merge1` and `merge2` were run on the exact same randomized array each run
+- Ensuring that `merge1` and `merge2` were run on identical data
 
 ### Results
 
@@ -23,13 +23,12 @@ Below are the results of the tests:
 ### Reverse Algorithm Results Comparison
 ![Reverse Algorithm Runtime Results](images/reverse-algorithm-comparison.png)  
 
+`reverse3` outperformed `reverse1` and `reverse2` on larger array sizes.
+
 ### Merge Algorithm Results Comparison
-![Merge Algorithm Runtime Results](images/merge-algorithm-comparison.png)
+![Merge Algorithm Runtime Results](images/merge-algorithm-comparison.png)  
 
-## How to Run  
-This program requires Java 5 or later to compile and run.
-
-The driver class of this project is `AlgorithmsSJW.java`. In compiling and running this file, the algorithms will run, reporting on the average runtime over three on each algorithm for each input array size.
+The two `merge` algorithms performed similarly across all `n` values, but `merge2` consistently, slightly outperformed `merge1` on larger array sizes.
 
 ## Runtime Analyses
 Below are Big-O runtime analyses for `reverse1`, `merge1`, and `merge2`
@@ -84,7 +83,15 @@ f(n) < k(n+m)log(n+m) where k is a sufficiently large constant multiple.
 
 So, the function is O((n+m)log(n+m))  
 
-## Note
+## Requirements  
+- <b>Java 5</b> or later
 
-This project was created as coursework for CIS-320: Data Structures.
-Some code may have been adapted from course materials or developed under instructor guidance.
+## Usage
+- Compile  
+```javac AlgorithmsSJW.java```
+- Run  
+```java AlgorithmsSJW```
+
+## Acknowledgments  
+This project was completed for CIS 320: Data Structures  
+Some code was adapted from course materials under instructor guidance
